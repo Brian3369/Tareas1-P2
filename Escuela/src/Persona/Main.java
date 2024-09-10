@@ -37,22 +37,6 @@ public class Main {
 		escuela.agregarClase(claseB);
 		
 		escuela.mostrarClases(escuela);
-		
-//        for (Clase clase : escuela.getClases()) {
-//        	System.out.println("-----------------------------------");
-//            System.out.println("Clase: " + clase.getIdentificadorCurso());
-//            System.out.println("Profesores:");
-//            for (Profesor profesor : clase.getProfesores()) {
-//                System.out.println(" - " + profesor.getNombre());
-//                for (Curso curso : profesor.getCursos()) {
-//                    System.out.println("   Curso: " + curso.getNombreCurso());
-//                }
-//            }
-//            System.out.println("Estudiantes:");
-//            for (Estudiante estudiante : clase.getEstudiantes()) {
-//                System.out.println(" - " + estudiante.getNombre() + " (Matricula: " + estudiante.getMatricula() + ")");
-//            }
-//        }
 	}
 }
 
